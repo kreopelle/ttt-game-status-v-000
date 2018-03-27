@@ -50,4 +50,5 @@ end
 
 def winner(board)
   if won?(board)
-    
+    won?(board).detect do |win_token|
+      
