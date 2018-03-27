@@ -48,15 +48,5 @@ def over?(board)
 end
 
 
-=begin
-
-
-true - !won && full
-false - !won && !full
-false - won
-
- board.all? do |index|
-#    won?(board) || full?(board) || draw?(board)
-  end
-end
-=end
+def winner(board)
+  if won?(board)
