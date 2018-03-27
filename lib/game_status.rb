@@ -50,8 +50,6 @@ end
 
 def winner(board)
   if won?(board)
-    won?(board).detect do |win_token|
-      board[win_token]
-    end
+    board[won?(board)[0]]
   end
 end
