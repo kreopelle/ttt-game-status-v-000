@@ -31,10 +31,6 @@ def full?(board)
   end
 end
 
-true - !won && full
-false - !won && !full
-false - won
-
 def draw?(board)
   if won?(board) == false && full?(board) == true
     true
@@ -55,6 +51,12 @@ end
 
 
 =begin
+
+
+true - !won && full
+false - !won && !full
+false - won
+
  board.all? do |index|
 #    won?(board) || full?(board) || draw?(board)
   end
