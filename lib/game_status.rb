@@ -54,7 +54,9 @@ def over?(board)
 end
 
 
-#  board.all? do |index|
+=begin
+ board.all? do |index|
 #    won?(board) || full?(board) || draw?(board)
   end
 end
+=end
